@@ -63,7 +63,7 @@ Colored text but with background. If you want only background, i dont make it po
 - italic
 - underline
 
-**Foreground**
+**Colo**
 - black
 - red
 - green
