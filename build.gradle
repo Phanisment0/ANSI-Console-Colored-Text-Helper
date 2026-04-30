@@ -1,0 +1,18 @@
+plugins {
+	id "application"
+}
+
+application {
+	mainClass = "Main"
+}
+
+repositories {
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+}
